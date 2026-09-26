@@ -36,6 +36,7 @@ mkdir -p build_output
 iverilog -o build_output/signalink_sim \
     "RTL / Digital Processing/toffoli_gate.v" \
     "RTL / Digital Processing/alu_core.v" \
+    "RTL / Digital Processing/register_file.v" \
     "RTL / Digital Processing/uart_tx.v" \
     "RTL / Digital Processing/uart_rx.v" \
     "System Integration/signalink_core.v" \
