@@ -29,14 +29,39 @@ We want prototypes and research to be reproducible, documented, and open to impr
 4. Assistive systems: integrated communication prototypes
 5. Research frontier: hardware acceleration and quantum-inspired exploration
 
+## Security Architecture
+
+SIGNALINK treats security and privacy as architectural concerns from the beginning because future assistive systems may process sensitive gestural, sensor-derived, and biometric inputs.
+
+The repository maintains a dedicated threat model describing the security boundary between the open-source community architecture and future hardened Enterprise/Silicon architecture.
+
+🛡️ **[Read the SIGNALINK Threat Model & Security Specification](THREAT_MODEL.md)**
+
+The security specification documents:
+
+- Sensor-data interception and bus-level threats
+- Firmware tampering and hardware root-of-trust requirements
+- Side-channel considerations
+- Replay and authenticated-communication requirements
+- Future protected sensory-processing boundaries
+- Vulnerability disclosure expectations
+
+> **Security status:** The threat model distinguishes implemented prototype capabilities from future security architecture targets. SIGNALINK is not currently presented as a hardened security product or security certification.
+
 ## Website
 
 `index.html` is the project landing page and is designed for GitHub Pages.
 
 ## Status
 
-Early-stage, actively developing. This repository will evolve alongside experiments, prototypes, documentation, and research.
+Early-stage, actively developing. Blocks 01–03 currently contain implemented and verified development work, while Block 04 is the next assistive-system integration phase and Block 05 is the research frontier.
 
 ## License
 
-To be selected as the project matures.
+SIGNALINK is released under the **GNU Affero General Public License v3.0 (AGPL-3.0)**.
+
+See [`LICENSE`](LICENSE) for the full license text.
+
+## Contributing
+
+See [`CONTRIBUTING.md`](CONTRIBUTING.md) for contribution guidelines and [` .github/ISSUE_TEMPLATE/`](.github/ISSUE_TEMPLATE/) for structured bug reports and feature requests.
