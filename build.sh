@@ -9,17 +9,15 @@
 
 set -u
 
-# Color configurations for clean terminal output
 GREEN='\033[0;32m'
 BLUE='\033[0;34m'
 CYAN='\033[0;36m'
-NC='\033[0m' # No Color
+NC='\033[0m'
 
 echo -e "${BLUE}=======================================================${NC}"
 echo -e "${BLUE}🛰  SIGNALINK INTEGRATED AUTOMATION ENGINE STARTED${NC}"
 echo -e "${BLUE}=======================================================${NC}"
 
-# --- STEP 1: Execute Software Sensory Pipeline ---
 echo -e "\n${CYAN}[1/3] Running Sensory Processing Quantization Simulation...${NC}"
 if [ -f "Sensory Processing/hardware_bridge_sim.py" ]; then
     python3 "Sensory Processing/hardware_bridge_sim.py" || exit 1
@@ -28,17 +26,17 @@ else
     exit 1
 fi
 
-# --- STEP 2: Compile the Hardware Description Stack ---
 echo -e "\n${CYAN}[2/3] Compiling RTL Processing & Communication Core Layers...${NC}"
-
 mkdir -p build_output
 
 iverilog -o build_output/signalink_sim \
     "RTL / Digital Processing/toffoli_gate.v" \
     "RTL / Digital Processing/alu_core.v" \
     "RTL / Digital Processing/register_file.v" \
+    "RTL / Digital Processing/clock_divider.v" \
     "RTL / Digital Processing/uart_tx.v" \
     "RTL / Digital Processing/uart_rx.v" \
+    "RTL / Digital Processing/i2c_master.v" \
     "System Integration/signalink_core.v" \
     "System Integration/tb_signalink_loopback.v"
 
@@ -49,7 +47,6 @@ else
     exit 1
 fi
 
-# --- STEP 3: Execute Hardware Loopback Verification ---
 echo -e "\n${CYAN}[3/3] Executing Closed-Loop Verification Test...${NC}"
 vvp build_output/signalink_sim
 
