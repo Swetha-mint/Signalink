@@ -62,3 +62,4 @@ This gives SIGNALINK a more stable decision mechanism when the input is noisy.
 Implement the hysteresis behavior as an actual discrete-time state model in Desmos, then compare it with a circuit-level implementation.
 
 This experiment begins the SIGNALINK **Sense → Process → Communicate → Assist** pipeline.
+<img width="1365" height="573" alt="image" src="https://github.com/user-attachments/assets/4676494d-227d-4c68-a5b8-b9afbf77e3de" />
