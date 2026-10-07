@@ -29,6 +29,25 @@ We want prototypes and research to be reproducible, documented, and open to impr
 4. Assistive systems: integrated communication prototypes
 5. Research frontier: hardware acceleration and quantum-inspired exploration
 
+## Data Stewardship & Privacy
+
+> **Data is valuable. We protect it; we do not treat other people's data as something to take.**
+
+SIGNALINK is open-source, but open engineering does **not** mean indiscriminate collection or publication of personal data.
+
+We aim to:
+
+- Collect or retain only data necessary for a defined engineering, research, testing, or accessibility purpose.
+- Prefer local processing, derived features, aggregation, and minimized retention where practical.
+- Avoid placing personal, biometric, health, confidential institutional, credential, or other sensitive information in the public repository.
+- Use appropriate consent and institutional approval for real-world testing and pilots where required.
+- Distinguish **open source code** from **open data**.
+- Protect the integrity, provenance, and appropriate access of project-generated technical data.
+
+**Open code + documented methods + responsible data handling.**
+
+Read the full [SIGNALINK Data Stewardship & Privacy Principles](DATA_POLICY.md).
+
 ## Security Architecture
 
 SIGNALINK treats security and privacy as architectural concerns from the beginning because future assistive systems may process sensitive gestural, sensor-derived, and biometric inputs.
@@ -64,4 +83,4 @@ See [`LICENSE`](LICENSE) for the full license text.
 
 ## Contributing
 
-See [`CONTRIBUTING.md`](CONTRIBUTING.md) for contribution guidelines and [` .github/ISSUE_TEMPLATE/`](.github/ISSUE_TEMPLATE/) for structured bug reports and feature requests.
+See [`CONTRIBUTING.md`](CONTRIBUTING.md) for contribution guidelines and [`.github/ISSUE_TEMPLATE/`](.github/ISSUE_TEMPLATE/) for structured bug reports and feature requests.
