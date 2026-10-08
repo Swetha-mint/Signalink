@@ -29,6 +29,30 @@ We want prototypes and research to be reproducible, documented, and open to impr
 4. Assistive systems: integrated communication prototypes
 5. Research frontier: hardware acceleration and quantum-inspired exploration
 
+## Mobile / Hardware Bridge — SIGNALINK v1.0
+
+**New milestone:** a working **MIT App Inventor SIGNALINK v1.0** project has now been successfully imported and loaded.
+
+The Version 1 mobile architecture establishes the public-facing signal path:
+
+**SENSORS → PROCESSING → OUTPUT → FUTURE ESP32 / FPGA**
+
+Current Version 1 scope:
+
+- Phone **Accelerometer**
+- **Orientation Sensor**
+- **Proximity Sensor**
+- Start/Stop sensor input
+- Live sensor-value display
+- Communication output
+- Text-to-speech demonstration
+- **BluetoothClient** reserved for the future ESP32 bridge
+- SIGNALINK identity: **Sense. Process. Communicate. Assist.**
+
+The mobile app is being used as a bridge toward the next hardware stage rather than as the final SIGNALINK architecture. Internal signal-processing methods remain an engineering layer behind the presentation interface.
+
+> **Milestone status:** MIT App Inventor project import validated. Sensor behavior and ESP32 communication are the next implementation steps.
+
 ## Data Stewardship & Privacy
 
 > **Data is valuable. We protect it; we do not treat other people's data as something to take.**
