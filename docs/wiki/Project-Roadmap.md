@@ -67,4 +67,4 @@ Relevant files: `software/python/sensor_pipeline.py` and `software/python/hardwa
 
 ## Definition of done
 
-A milestone is complete only when its acceptance checks have evidence linked from the [Verification Log](Verification-Log). A folder, code file, or successful import alone is not proof of runtime behavior.
+A milestone is complete only when its acceptance checks have evidence linked from the [Verification Log](Verification-Log.md). A folder, code file, or successful import alone is not proof of runtime behavior.
