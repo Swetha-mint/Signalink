@@ -27,7 +27,7 @@ The repository contains Verilog RTL modules and testbenches, Python sensor-proce
 
 Status must be reported at the correct evidence level: **code written**, **simulation verified**, **software demonstrated**, or **hardware tested**. Loading/importing a project does not by itself prove that every sensor behaves correctly. Physical sensor integration and ESP32 communication remain unverified until tests demonstrate them.
 
-See the [Verification Log](Verification-Log) for the current evidence and open checks.
+See the [Verification Log](Verification-Log.md) for the current evidence and open checks.
 
 ## Roadmap
 
@@ -53,12 +53,12 @@ For each experiment, record:
 
 ## Explore the documentation
 
-- [Project Roadmap](Project-Roadmap)
-- [Hardware and RTL](Hardware-and-RTL)
-- [Sensor Processing](Sensor-Processing)
-- [Mobile and Hardware Bridge](Mobile-and-Hardware-Bridge)
-- [Experiments and Research](Experiments-and-Research)
-- [Verification Log](Verification-Log)
+- [Project Roadmap](Project-Roadmap.md)
+- [Hardware and RTL](Hardware-and-RTL.md)
+- [Sensor Processing](Sensor-Processing.md)
+- [Mobile and Hardware Bridge](Mobile-and-Hardware-Bridge.md)
+- [Experiments and Research](Experiments-and-Research.md)
+- [Verification Log](Verification-Log.md)
 
 ## Repository
 
