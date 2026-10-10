@@ -21,7 +21,7 @@ See also the [RTL folder README](../../rtl/README.md).
 2. From the repository root, run the relevant command documented in `rtl/README.md`.
 3. Inspect the complete simulator output and any generated waveform, if applicable.
 4. Compare observed behavior with the testbench's expected behavior.
-5. Record simulator version, exact command, result, and any limitations in the [Verification Log](Verification-Log).
+5. Record simulator version, exact command, result, and any limitations in the [Verification Log](Verification-Log.md).
 6. Keep failures visible; do not label a test as passed if it was not run.
 
 ## Integration questions to answer
