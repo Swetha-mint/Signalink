@@ -4,6 +4,23 @@
 
 SIGNALINK is an open-source engineering platform exploring low-latency assistive communication technologies.
 
+## Repository Structure
+
+```text
+.
+├── index.html, script.js        # GitHub Pages landing page (kept at root)
+├── rtl/                         # Verilog RTL modules
+│   └── testbenches/             # RTL simulation testbenches
+├── software/python/             # Sensor and hardware-bridge simulations
+├── docs/                         # Project and milestone documentation
+│   └── security/                # Data stewardship and threat model
+├── README.md
+├── CONTRIBUTING.md
+└── LICENSE
+```
+
+The website entry point stays at the repository root so the existing GitHub Pages setup and relative asset paths keep working. RTL and Python examples are grouped by purpose; security documentation is under `docs/security/`.
+
 ## What we explore
 
 - **Edge AI** — local, responsive intelligence
@@ -70,7 +87,7 @@ We aim to:
 
 **Open code + documented methods + responsible data handling.**
 
-Read the full [SIGNALINK Data Stewardship & Privacy Principles](DATA_POLICY.md).
+Read the full [SIGNALINK Data Stewardship & Privacy Principles](docs/security/DATA_POLICY.md).
 
 ## Security Architecture
 
@@ -78,7 +95,7 @@ SIGNALINK treats security and privacy as architectural concerns from the beginni
 
 The repository maintains a dedicated threat model describing the security boundary between the open-source community architecture and future hardened Enterprise/Silicon architecture.
 
-🛡️ **[Read the SIGNALINK Threat Model & Security Specification](THREAT_MODEL.md)**
+🛡️ **[Read the SIGNALINK Threat Model & Security Specification](docs/security/THREAT_MODEL.md)**
 
 The security specification documents:
 
