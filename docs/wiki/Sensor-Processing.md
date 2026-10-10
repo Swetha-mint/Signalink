@@ -34,5 +34,5 @@ For each run, document:
 
 - Run each script using the instructions in its README.
 - Save a small, reproducible test case.
-- Record output and failure cases in the [Verification Log](Verification-Log).
+- Record output and failure cases in the [Verification Log](Verification-Log.md).
 - Compare simulated behavior with physical measurements only after the sensor interface is working.
