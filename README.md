@@ -13,13 +13,20 @@ SIGNALINK is an open-source engineering platform exploring low-latency assistive
 │   └── testbenches/             # RTL simulation testbenches
 ├── software/python/             # Sensor and hardware-bridge simulations
 ├── docs/                         # Project and milestone documentation
-│   └── security/                # Data stewardship and threat model
+│   ├── security/                # Data stewardship and threat model
+│   └── wiki/                    # Engineering wiki source pages
 ├── README.md
 ├── CONTRIBUTING.md
 └── LICENSE
 ```
 
-The website entry point stays at the repository root so the existing GitHub Pages setup and relative asset paths keep working. RTL and Python examples are grouped by purpose; security documentation is under `docs/security/`.
+The website entry point stays at the repository root so the existing GitHub Pages setup and relative asset paths keep working. RTL and Python examples are grouped by purpose; security documentation is under `docs/security/`. The engineering documentation source pages are under `docs/wiki/`.
+
+## Engineering documentation
+
+Start with the [SIGNALINK Engineering Wiki Home](docs/wiki/Home.md), then explore the [project roadmap](docs/wiki/Project-Roadmap.md), [hardware and RTL guide](docs/wiki/Hardware-and-RTL.md), [sensor processing](docs/wiki/Sensor-Processing.md), [mobile and hardware bridge](docs/wiki/Mobile-and-Hardware-Bridge.md), [experiments and research](docs/wiki/Experiments-and-Research.md), and [verification log](docs/wiki/Verification-Log.md).
+
+These Markdown pages are maintained in the repository as source documentation. GitHub's separate Wiki pages must be published through the repository's Wiki interface.
 
 ## What we explore
 
