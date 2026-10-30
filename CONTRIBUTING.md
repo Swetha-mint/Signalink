@@ -1,34 +1,45 @@
-# Contributing to SIGNALINK 🚀
+# Contributing to SIGNALINK
 
-Welcome to SIGNALINK! We are an open-source engineering initiative building low-latency, ultra-low-power assistive communication technologies to empower marginalized communities. 
+Thank you for your interest in contributing to SIGNALINK.
 
-Whether you are a hardware enthusiast, a data scientist, or a software developer, we want your help to build the future of accessible tech.
+SIGNALINK is an open-source engineering project exploring assistive communication technologies. Contributions are welcome in software, embedded systems, digital logic, hardware, testing, research, accessibility, and documentation.
 
-## How You Can Contribute 🛠
+## Contribution workflow
 
-### 1. Digital Logic & RTL (VLSI Track)
-* Optimize our Verilog modules (like the `toffoli_gate.v`).
-* Help build out our Arithmetic Logic Unit (ALU) components.
-* Write simulation testbenches to verify logical accuracy.
+1. Read this guide and the project documentation before starting work.
+2. Open an issue or discussion describing the proposed change. For substantial work, wait for maintainer feedback before investing significant effort.
+3. Fork the public repository and create a focused feature branch.
+4. Make changes in your fork. Do not request or use another person's account credentials or access tokens.
+5. Submit a pull request against `main`, describing the purpose, implementation, tests, limitations, and any third-party material.
+6. The project maintainer reviews proposed changes. A pull request may be discussed, revised, accepted, or declined.
+7. Only the maintainer or an explicitly authorized maintainer merges changes into the official repository and makes official releases.
 
-### 2. Sensory Processing & Edge AI (Python Track)
-* Improve our data pipelines (like `sensor_pipeline.py`) to clean real-world sensor streams.
-* Test lightweight ML frameworks optimized for low-compute environments.
+## Access and project decisions
 
-### 3. Community & Documentation
-* Improve our README files or write tutorials for new developers.
-* Join our community and help brainstorm assistive application interfaces.
+- Contributors do not need write access to the official repository; use forks and pull requests.
+- The repository owner remains the project maintainer and controls official repository settings, the `main` branch, merges, and releases.
+- A contribution does not automatically grant repository administration, maintainer status, project leadership, or ownership of the project.
+- Technical proposals and disagreements should be handled respectfully and recorded in issues or pull requests.
+- Do not publish confidential, personal, biometric, health, or otherwise sensitive data.
 
-## Getting Started ⚡
-1. Fork this repository.
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`).
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
-4. Push to the branch (`git push origin feature/AmazingFeature`).
-5. Open a Pull Request!
+## Credit and intellectual property
 
-## Connect With Us 💬
-Have questions or want to sync up on the architecture? 
-* Join the conversation on our [SIGNALINK Discord](https://discord.gg)
-* Check out our vision at [SIGNALINK Web](https://github.io)
+- Keep commit history and pull-request descriptions accurate. Describe each person's actual contribution.
+- Contributors retain whatever rights they hold in their original contributions, subject to the repository's existing license and applicable law.
+- By submitting a contribution, you agree that it may be distributed as part of SIGNALINK under the repository's existing **GNU Affero General Public License v3.0 (AGPL-3.0)**, subject to that license's terms.
+- Do not submit code, datasets, images, or documentation that you do not have permission to contribute.
+- For substantial contributions, discuss attribution and any ownership or institutional requirements in writing before the work is merged. This guide is not a substitute for a separate written agreement where one is needed.
 
-Let's build technology that connects. 🦾
+## Quality checklist
+
+- Explain what changed and why.
+- Include reproducible test steps and results where applicable.
+- Mark unverified claims, assumptions, and limitations clearly.
+- Avoid committing secrets, API keys, passwords, private keys, or personal data.
+- Keep changes focused; avoid unrelated rewrites.
+
+## First contributions
+
+You can start by improving documentation, reproducing an existing test, reporting a bug, or proposing a small isolated improvement.
+
+Thank you for helping make assistive engineering more accessible and reproducible.
